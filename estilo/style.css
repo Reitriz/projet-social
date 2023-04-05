@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-body{
+#principal{
     background: black url('../imagens/fundo-madeira.jpg');
     background-size: cover;
 }
@@ -20,4 +20,8 @@ main{
     width: 311px;
     height: 627px;
     background-image: url('../imagens/frame-iphone.png');
+}
+#home{
+    background-image: url('../imagens/tela-home.jpg');
+    background-size: cover;
 }
