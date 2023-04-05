@@ -34,39 +34,14 @@ iframe{
     height: 600px;
     right: 5px;
 }
+
 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
     border-radius: 50%;
-    margin-top: 10px;
-    height: 60px;
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.404);
-    box-sizing: border-box;
 }
 img:hover{
-    border: 2px solid rgba(255, 255, 255, 0.527);
     transform: translate(-5px, -5px);
-    transition: transform 1s;
-}
-#home{
-    background-image: url('../imagens/tela-home.jpg');
-    background-size: cover;
-}
-#facebook{
-    background-image: url('../imagens/tela-facebook.jpg');
-    background-size: cover;
-}
-#github{
-    background-image: url('../imagens/tela-github.jpg');
-    background-size: cover;
-}
-#youtube{
-    background-image: url('../imagens/tela-youtube.png');
-    background-size: cover;
-}
-#instagram{
-    background-image: url('../imagens/tela-instagram.jpg');
-    background-size: cover;
-}
-#twitter{
-    background-image: url('../imagens/tela-twitter.jpg');
-    background-size: cover;
+    transition: transform 0.5s;
 }
