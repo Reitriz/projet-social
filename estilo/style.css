@@ -32,11 +32,19 @@ iframe{
     position: absolute;
     width: 60px;
     height: 600px;
-    right: 0px;
+    right: 5px;
 }
 img{
+    border-radius: 50%;
     margin-top: 10px;
     height: 60px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+}
+img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.527);
+    transform: translate(-5px, -5px);
+    transition: transform 1s;
 }
 #home{
     background-image: url('../imagens/tela-home.jpg');
@@ -61,7 +69,4 @@ img{
 #twitter{
     background-image: url('../imagens/tela-twitter.jpg');
     background-size: cover;
-}
-a:hover{
-    border-radius: 2px solid black;
 }
